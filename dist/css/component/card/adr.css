@@ -1,0 +1,4 @@
+@charset 'UTF-8';
+.card .h-adr .p-locality::after {
+  content: ', ';
+}

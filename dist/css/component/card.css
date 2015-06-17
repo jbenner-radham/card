@@ -1,0 +1,19 @@
+@charset 'UTF-8';
+.card .h-adr .p-locality::after {
+  content: ', ';
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.card dt {
+  font-weight: bold;
+}
+.card dt::after {
+  content: ":";
+}
+.card h1 {
+  border-bottom: thin solid #aaaaaa;
+  color: #0074d9;
+}

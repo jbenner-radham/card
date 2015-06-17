@@ -1,0 +1,30 @@
+{
+  "name": "@radioactivehamster/card",
+  "version": "0.0.0",
+  "description": "Cards and stuff yo!",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "Card",
+    "Cards",
+    "UX",
+    "Component"
+  ],
+  "author": "James Benner <james.benner@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@radioactivehamster/date-time": "^0.1.2",
+    "babel": "^5.5.8",
+    "browser-sync": "^2.7.11",
+    "colors.css": "^2.3.0",
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3",
+    "gulp-load-plugins": "^0.10.0",
+    "links.css": "0.0.2"
+  },
+  "dependencies": {
+    "handlebars": "^3.0.3"
+  }
+}

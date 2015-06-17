@@ -1,0 +1,29 @@
+{
+    "index": {
+        "meta": {
+            "author": "James Benner",
+            "description": "Cool descriptive stuff and things.",
+            "keywords": "Cool,Stuff,Things,Lasers",
+            "robots": "nofollow,noindex"
+        },
+        "vcard": {
+            "adr": {
+                "locality": "Awesometown",
+                "postalCode": "12345",
+                "region": {
+                    "abbr": "ST",
+                    "title": "Stately"
+                },
+                "streetAddress": "123 Awesome Blvd."
+            },
+            "email": {
+                "uri": "mailto:me@example.com",
+                "formatted": "me@example.com"
+            },
+            "tel": {
+                "uri": "tel:+1-777-777-7777",
+                "formatted": "777.777.7777"
+            }
+        }
+    }
+}

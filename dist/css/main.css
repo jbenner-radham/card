@@ -1,0 +1,46 @@
+@charset 'UTF-8';
+/* links.css - v0.0.1 - "Smarter defaults for links" License MIT
+*/
+a {
+  -webkit-transition: color .4s;
+  transition: color .4s;
+  color: #265C83;
+}
+a:link,
+a:visited {
+  color: #265C83;
+}
+a:hover {
+  color: #7FDBFF;
+}
+a:active {
+  -webkit-transition: color .3s;
+  transition: color .3s;
+  color: #007BE6;
+}
+.link {
+  text-decoration: none;
+}
+.card .h-adr .p-locality::after {
+  content: ', ';
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.card dt {
+  font-weight: bold;
+}
+.card dt::after {
+  content: ":";
+}
+.card h1 {
+  border-bottom: thin solid #aaaaaa;
+  color: #0074d9;
+}
+body {
+  background-color: #dddddd;
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-weight: 300;
+}

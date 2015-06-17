@@ -1,0 +1,18 @@
+<div class="card h-card">
+    <h1 class="p-name">James Benner</h1>
+    <dl>
+        <dt>email</dt>
+        <dd><a class="u-email" href="{{vcard.email.uri}}">{{vcard.email.formatted}}</a></dd>
+        <dt>tel</dt>
+        <dd><a class="p-tel" href="{{vcard.tel.uri}}">{{vcard.tel.formatted}}</a></dd>
+        <dt>adr</dt>
+        <dd>
+            <div class="p-adr h-adr">
+                <span class="p-street-address">{{vcard.adr.streetAddress}}</span>
+                <span class="p-locality">{{vcard.adr.locality}}</span>
+                <abbr class="p-region" title="{{vcard.adr.region.title}}">{{vcard.adr.region.abbr}}</abbr>
+                <span class="p-postal-code">{{vcard.adr.postalCode}}</span>
+            </div>
+        </dd>
+    </dl>
+</div>

@@ -1,0 +1,26 @@
+@charset 'UTF-8';
+
+@import (reference) '../../../node_modules/colors.css/less/colors.less';
+@import 'card/adr.less';
+
+@card-padding: 0.5rem;
+@card-radius: 0.5rem;
+
+.card {
+    background-color: @white;
+    border-radius: @card-radius;
+    padding: @card-padding;
+
+    dt {
+        font-weight: bold;
+
+        &::after {
+            content: ":";
+        }
+    }
+
+    h1 {
+        border-bottom: thin solid @gray;
+        color: @blue;
+    }
+}
