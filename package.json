@@ -12,6 +12,10 @@
     "UX",
     "Component"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbenner-radham/card.git"
+  },
   "author": "James Benner <james.benner@gmail.com>",
   "license": "MIT",
   "devDependencies": {
